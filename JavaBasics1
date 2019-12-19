@@ -1,0 +1,44 @@
+Java - OOPs
+
+OBJECT - The Entity which describes the State and Behavior
+	State: represents the data (value) of an object. - Monkey
+	Behavior: represents the behavior (functionality) of an object such as Jump, Run, etc.
+	
+CLASS - An object is an instance of a class. A class is a template or blueprint from which objects are created. So, an object is the instance(result) of a class.	
+		It contains Objects,Methods,Constructors etc.,
+		
+NAMING CONVENTIONS - 
+			
+Class
+It should start with the uppercase letter.
+It should be a noun such as Color, Button, System, Thread, etc.
+Use appropriate words, instead of acronyms.
+	
+Method
+It should start with lowercase letter.
+It should be a verb such as main(), print(), println().
+If the name contains multiple words, start it with a lowercase letter followed by an uppercase letter such as actionPerformed().
+
+Variable
+It should start with a lowercase letter such as id, name.
+
+Package
+It should be a lowercase letter such as java, lang.
+
+
+VARIABLES - Variable is name of reserved area allocated in memory. In other words, it is a name of memory location
+
+There are three types of variables in java:
+local variable - A variable declared inside the body of the method is called local variable. You can use this variable only within that method and the other methods in the class aren't even aware that the variable exists.
+instance variable - A variable declared inside the class but outside the body of the method, is called instance variable
+static variable - A variable which is declared as static is called static variable. It cannot be local
+
+
+
+CONTROL STATEMENTS - 
+if-else
+Switch
+for loop
+while
+Do while
+
