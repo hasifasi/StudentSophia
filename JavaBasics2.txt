@@ -1,0 +1,47 @@
+ACCESS MODIFIERS 
+Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
+Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
+Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
+
+Access Modifier	  	within class			within package			outside package by subclass only						outside package
+Private				Y				N						N								N
+Default				Y				Y						N								N
+Protected			Y				Y						Y								N
+Public				Y				Y						Y								Y
+	
+	
+CONSTRUCTORS:
+In Java, a constructor is a block of codes similar to the method. It is called when an instance of the class is created. At the time of calling constructor, memory for the object is allocated in the memory.
+
+It is a special type of method which is used to initialize the object.
+
+Every time an object is created using the new() keyword, at least one constructor is called.
+
+There are two rules defined for the constructor.
+
+Constructor name must be the same as its class name
+A Constructor must have no explicit return type
+A Java constructor cannot be abstract, static, final, and synchronized
+
+There are two types of constructors in Java:
+
+Default constructor (no-arg constructor)
+Parameterized constructor
+
+Note: It is called constructor because it constructs the values at the time of object creation. It is not necessary to write a constructor for a class. It is because java compiler creates a default constructor if your class doesn't have any.
+
+
+STATIC KEYWORD:
+The static keyword in Java is used for memory management mainly. We can apply java static keyword with variables, methods, blocks and nested class. The static keyword belongs to the class than an instance of the class
+Advantages of static variable
+It makes your program memory efficient (i.e., it saves memory).
+
+THIS KEYWORD:
+There can be a lot of usage of java this keyword. In java, this is a reference variable that refers to the current object.
+Usage of java this keyword
+Here is given the usages of java this keyword.
+
+this can be used to refer current class instance variable.
+this can be used to invoke current class method (implicitly)
+this() can be used to invoke current class constructor.
