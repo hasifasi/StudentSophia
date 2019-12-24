@@ -1,0 +1,39 @@
+THIS KEYWORD:
+There can be a lot of usage of java this keyword. In java, this is a reference variable that refers to the current object.
+Usage of java this keyword
+Here is given the usages of java this keyword.
+
+this can be used to refer current class instance variable.
+this can be used to invoke current class method (implicitly)
+this() can be used to invoke current class constructor.
+
+
+INHERITANCE: -  extends keyword
+Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of OOPs (Object Oriented programming system).
+Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+
+POLYMORPHISM
+METHOD OVERLOADING:
+If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
+There are two ways to overload the method in java
+
+By changing number of arguments
+By changing the data type
+
+METHOD OVERRIDING:
+If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+Usage of Java Method Overriding
+Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.
+Method overriding is used for runtime polymorphism
+Rules for Java Method Overriding
+The method must have the same name as in the parent class
+The method must have the same parameter as in the parent class.
+There must be an IS-A relationship (inheritance).
+
+SUPER KEYWORD:
+The super keyword in Java is a reference variable which is used to refer immediate parent class object.
+
+Usage of Java super Keyword
+super can be used to refer immediate parent class instance variable.
+super can be used to invoke immediate parent class method.
+super() can be used to invoke immediate parent class constructor.
